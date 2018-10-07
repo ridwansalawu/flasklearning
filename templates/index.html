@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+  <main class="hero-section">
+    <div class="container">
+
+      <div class="section-content">
+        <h2>Reedy Projects Pty Ltd</h2>
+        <p> Home of exceptional communication pits installation</p>
+        <a href="{{ url_for('index') }}" class="btn-primary">Sign up</a>
+        <a href="{{ url_for('About') }}" class="btn-secondary">Learn more</a>
+      </div>
+
+      <div class="section-device">
+        <img src="static/image/device.jpg">
+      </div>
+
+      <div class="clearfix"></div>
+
+    </div>
+  </main>
+{% endblock %}
