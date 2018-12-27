@@ -14,4 +14,10 @@ def about():
 
 if __name__ == "__main__":
 	app.run(debug=True)
+	
+@app.route("/register")
+def about():
+	return render_template("register.html")
+
+@app.route("/login")
 
