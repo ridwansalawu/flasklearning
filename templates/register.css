@@ -1,0 +1,62 @@
+
+          
+          ul{
+               color: aqua;
+               text-align: center;
+          }
+          ol{
+               color: chartreuse;
+               text-align: center;
+          }
+    
+          table{ 
+              border: 2px solid black;
+              border-collapse: collapse;
+              width: 50%;
+
+            } 
+            th, td, ul, ol{
+                border: 1px solid black;
+                padding: 5px;
+                text-align: center;
+            }
+            th{
+                background-color: darkgrey;
+            }
+           
+
+          div{
+              border: 3px solid blue;
+              background-color: bisque;
+              width: 50%;
+              height: 50%;
+              text-align: center;
+              margin: 10%;
+              padding: 10%;
+              text-decoration-color: blueviolet;
+              font-family: cursive;
+              font-size: 28px;
+              font-weight: bold;
+              
+
+          }
+
+          #butn{
+              font-size: 24px;
+          }
+
+          #form{
+            border: 3px solid blue;
+            background-color: bisque;
+            width: 50%;
+            height: 50%;
+            text-align: center;
+            margin: 10%;
+            padding: 10%;
+            text-decoration-color: blueviolet;
+            font-family: cursive;
+            font-size: 28px;
+            font-weight: bold;
+            
+
+        }
